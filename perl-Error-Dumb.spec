@@ -8,13 +8,13 @@ Summary:	Error::Dumb Perl module for simple error management for simple classes
 Summary(pl):	Modu³ Perla Error::Dumb do uproszczonego zarz±dzania b³êdami w prostych klasach
 Name:		perl-Error-Dumb
 Version:	0.02
-Release:	1
+Release:	2
 License:	-
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 #URL:		-
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -32,7 +32,8 @@ odczytywania komunikatów o b³êdach.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %{!?_without_tests:%{__make} test}
@@ -49,5 +50,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
-%{perl_sitelib}/Error/Dumb.pm
+%{perl_vendorlib}/Error/Dumb.pm
 %{_mandir}/man3/*
