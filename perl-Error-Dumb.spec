@@ -9,7 +9,7 @@ Summary:	Error::Dumb - simple error management for simple classes
 Summary(pl):	Error::Dumb - uproszczone zarz±dzanie b³êdami w prostych klasach
 Name:		perl-Error-Dumb
 Version:	0.02
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
