@@ -4,16 +4,16 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Error
 %define		pnam	Dumb
-Summary:	Error::Dumb Perl module - simple error management for simple classes
-Summary(pl):	Modu³ Perla Error::Dumb - uproszczone zarz±dzanie b³êdami w prostych klasach
+Summary:	Error::Dumb - simple error management for simple classes
+Summary(pl):	Error::Dumb - uproszczone zarz±dzanie b³êdami w prostych klasach
 Name:		perl-Error-Dumb
 Version:	0.02
 Release:	2
-License:	-
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b5b6892b76d18c0ab9b316d553fc3cc2
-#URL:		-
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
