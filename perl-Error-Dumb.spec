@@ -8,7 +8,7 @@ Summary:	Error::Dumb Perl module for simple error management for simple classes
 Summary(pl):	Modu³ Perla Error::Dumb do uproszczonego zarz±dzania b³êdami w prostych klasach
 Name:		perl-Error-Dumb
 Version:	0.02
-Release:	1
+Release:	2
 License:	-
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
