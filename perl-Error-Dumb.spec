@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Error
-%define	pnam	Dumb
+%define		pdir	Error
+%define		pnam	Dumb
 Summary:	Error::Dumb - simple error management for simple classes
 Summary(pl):	Error::Dumb - uproszczone zarz±dzanie b³êdami w prostych klasach
 Name:		perl-Error-Dumb
