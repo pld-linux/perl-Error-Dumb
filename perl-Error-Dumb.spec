@@ -6,7 +6,7 @@
 %define		pdir	Error
 %define		pnam	Dumb
 Summary:	Error::Dumb - simple error management for simple classes
-Summary(pl):	Error::Dumb - uproszczone zarz±dzanie b³êdami w prostych klasach
+Summary(pl.UTF-8):   Error::Dumb - uproszczone zarzÄ…dzanie bÅ‚Ä™dami w prostych klasach
 Name:		perl-Error-Dumb
 Version:	0.02
 Release:	3
@@ -25,10 +25,10 @@ Error::Dumb Perl module is a base class that is meant to be inherited
 by other classes. All this class provides is an interface for setting
 and retrieving error messages.
 
-%description -l pl
-Modu³ Perla Error::Dumb jest klas± bazow±, po której dziedzicz± inne
-klasy. Klasa ta udostêpnia jedynie interfejs do definiowania i
-odczytywania komunikatów o b³êdach.
+%description -l pl.UTF-8
+ModuÅ‚ Perla Error::Dumb jest klasÄ… bazowÄ…, po ktÃ³rej dziedziczÄ… inne
+klasy. Klasa ta udostÄ™pnia jedynie interfejs do definiowania i
+odczytywania komunikatÃ³w o bÅ‚Ä™dach.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
