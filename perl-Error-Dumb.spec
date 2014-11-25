@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Error
 %define		pnam	Dumb
+%include	/usr/lib/rpm/macros.perl
 Summary:	Error::Dumb - simple error management for simple classes
 Summary(pl.UTF-8):	Error::Dumb - uproszczone zarządzanie błędami w prostych klasach
 Name:		perl-Error-Dumb
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b5b6892b76d18c0ab9b316d553fc3cc2
+URL:		http://search.cpan.org/dist/Error-Dumb/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
