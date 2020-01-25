@@ -4,7 +4,6 @@
 
 %define		pdir	Error
 %define		pnam	Dumb
-%include	/usr/lib/rpm/macros.perl
 Summary:	Error::Dumb - simple error management for simple classes
 Summary(pl.UTF-8):	Error::Dumb - uproszczone zarządzanie błędami w prostych klasach
 Name:		perl-Error-Dumb
